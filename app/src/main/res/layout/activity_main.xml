@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="36dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/appeteria_logo" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@android:color/holo_purple">
+
+        <TextView
+            android:id="@+id/explorer_text_views"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center_vertical"
+            android:text="Explorer"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@android:color/holo_orange_dark">
+
+        <TextView
+            android:id="@+id/scientist_text_views"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Scientist"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</LinearLayout>

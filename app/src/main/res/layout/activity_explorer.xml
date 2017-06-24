@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="Explorer"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/search_text_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Search"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="@android:color/holo_blue_bright">
+
+                <TextView
+                    android:id="@+id/species_grouping_text_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Species Grouping"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="@android:color/holo_green_light">
+
+                <TextView
+                    android:id="@+id/biodiversity_text_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Biodiversity"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="@android:color/holo_orange_light">
+
+                <TextView
+                    android:id="@+id/users_text_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Users"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="@android:color/holo_red_light">
+
+                <TextView
+                    android:id="@+id/tools_text_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Tools"
+                    android:textSize="32sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:background="@android:color/holo_green_dark">
+
+                <TextView
+                    android:id="@+id/miscellaneous_text_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="Miscellaneous"
+                    android:textSize="32sp" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
